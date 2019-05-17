@@ -1,0 +1,16 @@
+body, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro-image {
+  width: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-image {
+    width: 50%;
+  }
+}
